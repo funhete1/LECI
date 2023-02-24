@@ -1,0 +1,182 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Ex10",
+            "request": "launch",
+            "mainClass": "Aula02.Ex10",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex9",
+            "request": "launch",
+            "mainClass": "Aula02.Ex9",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex4",
+            "request": "launch",
+            "mainClass": "Aula04.Ex4",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex3",
+            "request": "launch",
+            "mainClass": "Aula04.Ex3",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2",
+            "request": "launch",
+            "mainClass": "Aula04.Ex2",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1",
+            "request": "launch",
+            "mainClass": "Aula04.Ex1",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex8",
+            "request": "launch",
+            "mainClass": "Aula03.Ex8",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Aula03",
+            "request": "launch",
+            "mainClass": "Aula03.Aula03",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6",
+            "request": "launch",
+            "mainClass": "Aula03.Ex6",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex5",
+            "request": "launch",
+            "mainClass": "Aula03.Ex5",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex4",
+            "request": "launch",
+            "mainClass": "Aula03.Ex4",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex3",
+            "request": "launch",
+            "mainClass": "Aula03.Ex3",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2",
+            "request": "launch",
+            "mainClass": "Aula03.Ex2",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1",
+            "request": "launch",
+            "mainClass": "Aula02.Ex1",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex2",
+            "request": "launch",
+            "mainClass": "Aula02.Ex2",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex3",
+            "request": "launch",
+            "mainClass": "Aula02.Ex3",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex4",
+            "request": "launch",
+            "mainClass": "Aula02.Ex4",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex5",
+            "request": "launch",
+            "mainClass": "Aula02.Ex5",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex6",
+            "request": "launch",
+            "mainClass": "Aula02.Ex6",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex7",
+            "request": "launch",
+            "mainClass": "Aula02.Ex7",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex8",
+            "request": "launch",
+            "mainClass": "Aula02.Ex8",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ex1(1)",
+            "request": "launch",
+            "mainClass": "Aula03.Ex1",
+            "projectName": "Src_220b1c5a"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyFristClass",
+            "request": "launch",
+            "mainClass": "MyFristClass",
+            "projectName": "Src_220b1c5a"
+        }
+    ]
+}

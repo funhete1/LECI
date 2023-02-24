@@ -1,0 +1,5 @@
+para um codigo assemblado uma instrucao e armazenada nas memoria, as diretivas ja n 
+
+
+importancia de usar o "globl main" e necessario usar o globl main para mostrar ao assembler que a main e uma funcao global que pode acessado 
+externamente e no nosso caso para que o codigo das exceptions possa acesssar o nosso codigo

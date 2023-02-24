@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/funhe/Documents/UA/Ano1/LSD/Pratica/Aula01/Part2/AND2Gate.vhd
+source_file = 1, C:/Users/funhe/Documents/UA/Ano1/LSD/Pratica/Aula01/Part2/GateDemo.vhd
+source_file = 1, c:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/funhe/Documents/UA/Ano1/LSD/Pratica/Aula01/Part2/db/AND2Gate.cbx.xml
+design_name = hard_block
+design_name = GateDemo
+instance = comp, \LEDG[0]~output\, LEDG[0]~output, GateDemo, 1
+instance = comp, \SW[1]~input\, SW[1]~input, GateDemo, 1
+instance = comp, \SW[0]~input\, SW[0]~input, GateDemo, 1
+instance = comp, \System_core|outPort\, System_core|outPort, GateDemo, 1

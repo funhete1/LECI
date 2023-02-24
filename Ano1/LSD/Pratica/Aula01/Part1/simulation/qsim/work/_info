@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/funhe/Documents/UA/Ano1/LSD/Pratica/Aula01/Part1/simulation/qsim
+vGateDemo
+Z1 !s110 1676889047
+!i10b 1
+!s100 =TY;1Q0ROGUeJ6IDI^[hC1
+IC48<3U@]Vi38kbk5ff76A3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1676889046
+8GateDemo.vo
+FGateDemo.vo
+L0 31
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1676889047.000000
+!s107 GateDemo.vo|
+!s90 -work|work|GateDemo.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@gate@demo
+vGateDemo_vlg_vec_tst
+R1
+!i10b 1
+!s100 ]Dk85;J6DNYzj6lV8d=HI0
+I``a6A^@m]FKf1X][W7ehb1
+R2
+R0
+w1676889045
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+n@gate@demo_vlg_vec_tst

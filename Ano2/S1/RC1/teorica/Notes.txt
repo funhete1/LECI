@@ -1,0 +1,14 @@
+-------------------------CSMA/CD-----------------------------
+
+Named carrier sense multiple access with collision detection, was method used on early internet access use, nowadays is not so common but on those days when a whole network was cabled. This method was what ensure that collisions on the network was minimized.
+The way that this method works is by making the hosts on the network to wait until the cable being idle, and only after that this host will start to send data. So imagine that two PC's(A and B) are sending packages to each other and some other PC(C) want to send some data for another PC(D) on the net, cause of the method C must wait until A and B stop so it can send his message to D.
+
+But since CSMA don't prevent from collisions he only minimized must be someway to handle collisions; Continuing on the above example lets now pretend that C and D are waiting A and B to finish so they can send there packages, once A and B finish 
+immediately C and D start to transmit and of course there messages collide and a package loss occur, to fix this both PC's stop transmitting and both PC's wait for a random amount of time to start again, the waiting time must be random to prevent the collision to happen again.
+
+Remember that this method was used on cabled networks, nowadays we use something more advanced like wireless networks usually called WiFi.
+
+
+--------------------------Wireless-----------------------------
+
+Wireless Network is the is what we use today but even been easier to install and since is not being cabled we can expand, but the problem is since we do not need cabled once u get to far from the AP(Access Point) u lost power connection, and CD and CS are not supportable so u can detect collision's. To understand better lets imagine that u have two networks 

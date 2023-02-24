@@ -1,0 +1,19 @@
+tempo de op sobre registros < t memoria
+
+
+unidade de controle - cordeena tds os blocos, tal como a alu e os outros componentes
+
+"program counter" guarda o enderco da proxima instrucao a ser executada
+
+RUG - sao registros como os $t usados para valores temporarios e possuem um barramento de 32 bits, por isso variando de 0-31
+
+C -> assembly -> binary
+
+
+no topo se mete se os dados{.data /n .text /n .globl main}
+
+label - sao "etiquetas" que guardam o endereco de memoria da instrucao {‎main: ori...}
+
+System calls sao funcoes do sistema operativo que implementa servicos basicos de I/O, como ler dados do utlizador, imprimir dados no termianl
+
+Temos em torno de 50 sys calls o registro $v0 e sempre usado para identificar-las e os registros $a0-$a3

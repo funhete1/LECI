@@ -1,0 +1,69 @@
+AULAS TP
+
+O ensino em SSE conjuga a habitual abordagem expositiva com o trabalho autónomo dos alunos. As aulas teórico-práticas, com a duração de 120 minutos cada, são suportadas por apresentações powerpoint e complementadas com exercícios feitos no quadro.
+
+Capítulo 1: Fundamentos
+
+       Corrente eléctrica e diferença de potencial; Circuito eléctrico básico: analogia hidráulica; Condutores, isoladores e resistência eléctrica; Elementos de circuitos elementares: dispositivos físicos e modelos matemáticos; Polaridades e sentidos de referência; Potência em circuitos eléctricos; Lei de Ohm; Resistividade; Lei das correntes e lei das tensões de Kirchhoff; Análise de circuitos simples com um só loop ou dois nós; Combinação de resistências; Divisores de tensão e de corrente.
+
+Capítulo 2: Técnicas de Análise de Circuitos
+
+       Análise nodal; Exemplos de cálculo; Análise nodal com super-nós; Teorema de Thévenin; Equivalente de Thévenin: Método Universal.
+
+Capítulo 3: Capacidade e Indutância
+
+       Redefinição de elemento activo e passivo; Condensador e capacidade; Resposta ao degrau do circuito RC; Bobina e indutância; Combinação de bobinas e combinação de condensadores.
+
+Capítulo 4: Circuitos em Regime Sinusoidal
+
+       Resposta forçada a uma função sinusoidal; Função forçadora complexa; Fasores; Relações fasoriais para R, L e C; Extensão das técnicas de análise aos circuitos em regime sinusoidal; Impedância; Potência em regime sinusoidal; Valor eficaz.
+
+Capítulo 5: Nocões de Sistemas e Sinais
+
+       Sinais: definição e classificação; Sinais nos domínios do tempo e da frequência; Resposta em frequência; Caso do circuito RC passa-baixo; O decibel (dB); Resposta de amplitude e de fase; Circuito RC passa-alto; Diagramas de Bode; Resposta ao degrau; Tempo de subida; Tilt.
+
+Capítulo 6: Amplificadores Operacionais
+
+       Amplificador operacional: fundamentos; Modelo equivalente simplificado; Realimentação: configuração inversora; Calculo do ganho; Modelo ideal do OpAmp; Noção de curto-circuito virtual na entrada; Configuração não inversora; Limites do modelo ideal; Resistência de entrada e resistência de saída num amplificador de tensão; Outras configurações básicas do OpAmp: Seguidor de tensão e sua utilidade; Amplificador somador; Amplificador integrador; Comparadores de tensão.
+
+Capítulo 7: Díodos e Aplicações
+
+	Fundamentos físicos do díodo; Junção pn em equilíbrio, inversamente e directamente polarizada; Característica corrente/tensão do díodo; Parâmetros mais importantes do dispositivo; Modelos simplificados para análise de circuitos; Rectificadores: meia onda e onda completa; Filtragem; Díodo Zener e aplicações; Díodo LED e foto-díodo.
+
+Capítulo 8: O Transístor MOS
+
+	Estrutura física e funcionamento do MOSFET; Modelo quadrático do NMOS e MOSFET de canal p; MOSFET em DC; MOSFET como amplificador; MOSFET como interruptor electrónico; Aplicações do MOSFET como interruptor: Interruptor de potência e interruptor analógico; Circuitos digitais; Capacidades intrínsecas do MOSFET
+
+AULAS PRATCAS
+
+Estas aulas consistem na realização de sete trabalhos laboratoriais, com a duração de uma a duas aulas cada, onde se abordam alguns dos temas teóricos do conteúdo programático da disciplina. Os objectivos passam pela consolidação dos conhecimentos sobre as técnicas de análise de circuitos, sobre os aspectos fundamentais dos dispositivos electrónicos estudados e sua aplicação, e ainda pela familiarização com a aparelhagem de medida e teste encontrada frequentemente num laboratório de electrónica. Sempre que possível, os trabalhos são executados por grupos de dois alunos. Todos os elementos relevantes para o trabalho, designadamente medidas e resultados, deverão ser registados pelos alunos.
+
+Trabalhos práticos
+
+1 – Introdução ao laboratório de electrónica
+
+	Introdução sumária dos equipamentos e componentes básicos do laboratório de electrónica. Utilização da placa branca, da fonte de alimentação e do multímetro. Montagem de circuitos simples em DC e medições.
+
+2 – Característica tensão-corrente de um dispositivo eléctricos
+
+	Relação V em função de I numa resistência. Lei de Ohm. Comparação com a característica V/I extraída de um dispositivo não linear dado. Noção de resistência dinâmica.
+
+3 – Conceitos de análise de circuitos na prática
+
+	Montagem e estudo de circuitos em DC. Utilização de duas fontes de tensão. Demonstração prática do Princípio da Sobreposição e do Teorema de Thévenin.
+
+4 – Osciloscópio e circuito RC
+
+	Exploração das funcionalidades básicas do osciloscópio. Utilização do gerador de funções. Influência da impedância de entrada do osciloscópio nas medições. Estudo da resposta do circuito RC nos domínios do tempo e da frequência.
+
+5 – Amplificadores operacionais: configurações básicas
+
+	Características principais dum amplificador operacional comercial. Dimensionamento das configurações inversora e não-inversora. Caracterização básica destas configurações no laboratório.
+
+6 – Díodos e aplicações
+
+	Montagem e teste de circuitos com díodos. Rectificador de meia onda com filtragem. Díodo Zener como regulador de tensão. Circuito com foto-díodo.
+
+7 – Electrónica em aplicações reais (opcional)
+
+	Projecto, montagem e teste de pequenos projectos que integram os conhecimentos adquiridos nos trabalhos anteriores e ao mesmo tempo ilustram aplicações concretas de circuitos electrónicos.

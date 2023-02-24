@@ -1,0 +1,9 @@
+1-(b)Uma arquitetura do tipo harvard diferente das outras possui duas memorias independentes em termos de barramentoe ligação ao processador. Tem como principal caracteristica, o acesso a memoria de dados de modo separado em relacao a memoria de programa.
+
+2-(d)Instruções de cunho aritimetico, como soma, subtração, etc... são instruções do tipo R. Já as instruções de manipulação de memoria ou seja instruções para mover dados da memoria para os registros e vice e versa, são do tipo I e instruções de saltos são do tipo J.
+
+3-(a)Se o produto da uma multiplicação tem seu resultado representado em 32 bits o ainda teria q ter um bit para o sinal por isso se cada registro dos 32 que temos tem um total de 32 bits, a multiplicação de dois numeros como n é uma op unsigned temos de representar o sinal por isso temos de roubar espaço ao registro HI para representar o sinal do resultado.
+
+4-(d)Tal como quando usavamos LW ou SW nos sempre andavamos de 4 em 4 na memoria,pois cada endereço de memoria tinha um tamanha do 4 bits = 1 byte. Sendo assim uma memoria do tipo byte-addressable tem como caracteristica que cada endereço de memoria tenha associado a si um um registro com dimensao de 1 byte. Note que não e o endereço de memoria que tem dimensão de 1 byte e sim a memoria e que esta dividida em espaços de 1 byte por isso cada endreço aponta para um registro dessa dimenção.
+
+5-()Se cada endereço aponta para um registro de 16 bits, tendo um barramento de 30 bits temos um total de 30*16
