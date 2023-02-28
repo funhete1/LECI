@@ -1,0 +1,182 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/funhe/Documents/UA/LECI/Ano1/LSD/Pratica/Aula02/Part2/simulation/qsim
+Emux2_1
+Z1 w1677499351
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 N5CzKW88F^ShIK@<7Vek12
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 K8IbX`K5[Y1gJUKg2X_071
+R0
+Z8 8Mux2_1Demo.vho
+Z9 FMux2_1Demo.vho
+l0
+L34
+VkfoQnz`8lKej7Q7acBig03
+!s100 oEJLGknK^8oWCKmlzGjO:3
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1677499352
+!i10b 1
+Z12 !s108 1677499352.000000
+Z13 !s90 -work|work|Mux2_1Demo.vho|
+Z14 !s107 Mux2_1Demo.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 6 mux2_1 0 22 kfoQnz`8lKej7Q7acBig03
+l61
+L42
+Vo3<E7SAg:4;93__dz5HF]2
+!s100 l[kU[>JjJ4fVendED:>5J2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Emux2_1_vhd_vec_tst
+Z17 w1677499350
+R5
+R6
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L31
+VT8_W>T`61J;KkKjB@86nm0
+!s100 N6<YBHlgcZ6NW1mU4Jej32
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Waveform.vwf.vht|
+Z21 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Amux2_1_arch
+R5
+R6
+DEx4 work 18 mux2_1_vhd_vec_tst 0 22 T8_W>T`61J;KkKjB@86nm0
+l46
+L33
+VIV4a^:e`aUQmn9]U=QP881
+!s100 U12:a=GbgGoNR18:zl^gg0
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
+Emux4_1
+Z22 w1677510280
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L34
+VTOi54O2;Cfkf<jjgUzIUS0
+!s100 L2Oj21?7OBT`:AH>Pl`V`2
+R10
+32
+Z23 !s110 1677510281
+!i10b 1
+Z24 !s108 1677510281.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 6 mux4_1 0 22 TOi54O2;Cfkf<jjgUzIUS0
+l65
+L42
+V>k3hTlfTVDm5=O2moXl720
+!s100 jQD0=ao]^D8f6B5Y0G65O1
+R10
+32
+R23
+!i10b 1
+R24
+R13
+R14
+!i113 1
+R15
+R16
+Emux4_1_vhd_vec_tst
+R22
+R5
+R6
+R0
+Z25 8Waveform1.vwf.vht
+Z26 FWaveform1.vwf.vht
+l0
+L31
+VG9d3RTUYPJ2K<HjL][Ubf2
+!s100 1z]l]Z?n?F79;QK7<Bm^L1
+R10
+32
+R23
+!i10b 1
+R24
+Z27 !s90 -work|work|Waveform1.vwf.vht|
+Z28 !s107 Waveform1.vwf.vht|
+!i113 1
+R15
+R16
+Amux4_1_arch
+R5
+R6
+Z29 DEx4 work 18 mux4_1_vhd_vec_tst 0 22 G9d3RTUYPJ2K<HjL][Ubf2
+l46
+L33
+Z30 VP[EMAQPiGzGl@C:fW:@:Z3
+Z31 !s100 4h0GM0`>Z>Moo04P^H4QE2
+R10
+32
+R23
+!i10b 1
+R24
+R27
+R28
+!i113 1
+R15
+R16
