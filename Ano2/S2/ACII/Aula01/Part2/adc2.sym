@@ -1,0 +1,29 @@
+GAS LISTING adc2.s 			page 1
+
+
+DEFINED SYMBOLS
+              adc2.s:2      *ABS*:0000000000000014 SIZE
+              adc2.s:3      *ABS*:0000000000000009 readStr
+              adc2.s:4      *ABS*:0000000000000008 printStr
+              adc2.s:5      *ABS*:0000000000000006 printInt
+              adc2.s:6      *ABS*:0000000000000007 printInt10
+              adc2.s:7      .data:0000000000000000 s1
+              adc2.s:8      .data:0000000000000016 s2
+              adc2.s:9      .data:0000000000000023 str1
+              adc2.s:10     .data:0000000000000038 str2
+              adc2.s:11     .data:000000000000004d str3
+              adc2.s:15     .text:0000000000000000 main
+              adc2.s:91     .text:0000000000000110 strlen
+              adc2.s:108    .text:0000000000000134 strcpy
+              adc2.s:123    .text:000000000000015c strcat
+              adc2.s:145    .text:000000000000019c strcmp
+              adc2.s:94     .text:0000000000000118 strlenf
+              adc2.s:100    .text:000000000000012c estrlenf
+              adc2.s:110    .text:0000000000000138 forcpy
+              adc2.s:117    .text:0000000000000154 eforcpy
+              adc2.s:128    .text:000000000000016c catfor
+              adc2.s:133    .text:0000000000000180 ecatfor
+              adc2.s:146    .text:000000000000019c cmpfor
+              adc2.s:153    .text:00000000000001c0 ecmpfor
+
+NO UNDEFINED SYMBOLS
