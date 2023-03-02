@@ -4,31 +4,87 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "encodedOut[0]",
-					"strict" : false
-				},
-				{
-					"name" : "encodedOut[1]",
-					"strict" : false
-				},
-				{
 					"name" : "validOut",
 					"strict" : false
 				},
 				{
-					"name" : "decodedIn[3]",
+					"name" : "dataOut[0]",
 					"strict" : false
 				},
 				{
-					"name" : "decodedIn[1]",
+					"name" : "dataOut[1]",
 					"strict" : false
 				},
 				{
-					"name" : "decodedIn[2]",
+					"name" : "dataOut[2]",
 					"strict" : false
 				},
 				{
-					"name" : "decodedIn[0]",
+					"name" : "dataOut[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[10]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[12]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[14]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[11]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[8]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[9]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[13]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[15]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dataIn[7]",
 					"strict" : false
 				}
 			]

@@ -1,26 +1,34 @@
 package Aula03;
-import java.util.*;
+//package Aula03;
+import java.util.Scanner;
 
-public class Ex3 {
+class Ex03{
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Insert a number: ");
-        int n = sc.nextInt();
-        assert n >= 0;
-        System.out.printf("%d is %s", n, (PrimeN(n) ? "prime":"not prime"));
-        sc.close();
+        higherLower();
     }
-    public static boolean PrimeN(int n) {
-        if(n <= 1) return false;
-        if(n <= 3) return true;
+    public static void higherLower() {
+        Scanner sc = new Scanner(System.in);
+        int random = (int)Math.floor(Math.random() * 101);
+        int guess,counter = 0;
 
-        if(n %2 == 0 || n % 3 == 0) return false;
+        do{
+            System.out.println("Try to guess the number between 1 and 100");
+            guess = sc.nextInt();
+            if(guess > random){
+                System.out.println("Lower");
+            }else if(guess < random){
+                System.out.println("Higher");
+            }
+            counter++;
 
-        for (int i = 5;i * i <= n ; i =+6) {
-            if(n % i == 0 || n % (i + 2) == 0) return false;
-        }
-        
-        
-        return true;
+        }while(random != guess);
+        System.out.printf("Number of tries: %d\n", counter);
+        System.out.println("Wanna try again ?");
+        sc.nextLine();                          //solves the problem with the scans link="https://stackoverflow.com/questions/23450524/java-scanner-doesnt-wait-for-user-input"
+        String answer = sc.nextLine();
+        if((answer != "Y") || (answer != "Yes" ) || (answer != "yes") || (answer != "y") ){   //why does the condition only works if the result is false ???
+            higherLower();
+        };
+        sc.close();
     }
 }

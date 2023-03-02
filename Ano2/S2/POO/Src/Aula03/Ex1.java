@@ -1,24 +1,24 @@
 package Aula03;
-
-import java.util.*;
-
+import java.util.Scanner;
 public class Ex1 {
     public static void main(String[] args) {
+        int sum = sum();
+        System.out.println("Sum of all prime numbers betweeen your number is: "+sum);
+    }
+    public static int sum(){
+        int sum = 0;
         Scanner sc = new Scanner(System.in);
-        float notaP = 0; 
-        float notaT = 0;
-        do{
-            System.out.println("Nota pratica ?");
-            notaP = sc.nextFloat();
-            System.out.println("Nota teorica ?");
-            notaT = sc.nextFloat();
-
-        }while(!( ( notaP >=0 ) && (notaP <= 20) ) && !((notaT >=0) && (notaT <= 20)));
-        System.out.printf("Nota: %.2f", Notafinal(notaP, notaT));
+        System.out.println("Enter the a number: ");
+        int number = sc.nextInt();
+        while(number > 0){
+            if(Utils.Utils.PrimeN(number)){
+                sum+=number;
+            }
+            number--;
+        }
         sc.close();
+        return sum;
     }
-
-    public static double Notafinal(float notaPratica, float notaTeorica) {
-        return (0.4 * notaTeorica + 0.6 * notaPratica);
-    }
+    
+    
 }
