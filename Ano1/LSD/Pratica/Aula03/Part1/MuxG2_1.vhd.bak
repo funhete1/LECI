@@ -1,0 +1,22 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity MuxG2_1 is
+	generic(N: integer)
+	port(input1 : in std_logic_vector(N-1 downto 0);
+			input0: in std_logic_vector(N-1 downto 0);
+			sel :  in std_logic;
+			output : out std_logic_vector(N-1 downto 0));
+end Mux2_1;
+
+architecture Behavioral of MuxG2_1 is
+begin 
+	process(input0, input1, sel)
+	begin 
+		if(sel = '0') then
+			output <= input0;
+		else
+			output <= input1;
+		end if;
+	end process;
+end Behavioral;
