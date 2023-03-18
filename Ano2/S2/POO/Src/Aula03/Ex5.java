@@ -1,13 +1,6 @@
 package Aula03;
 //package Aula04;
 import java.util.*;
-import java.lang.Exception;
-
-class ValueOutOfBounds extends Exception {
-    public ValueOutOfBounds(String erroMessage){
-        super(erroMessage);
-    }
-}
 
 public class Ex5 {
     public static void main(String[] args)throws ValueOutOfBounds{
